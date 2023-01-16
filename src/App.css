@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --light:#D6D5CA;
+    --dark: #2A3030;
+    --header-font:'Courgette', cursive;
+    --light-text:#000000;
+}

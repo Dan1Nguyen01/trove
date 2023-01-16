@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+.header__div{
+    background-color: var(--light);
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.trove-header{
+    font-family: var(--header-font);
+    align-items: center;
+
+}
+

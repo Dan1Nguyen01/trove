@@ -1,0 +1,17 @@
+.navbar__container{
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+.navbar__div{
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+.navbar__div-link {
+    float: right;
+    text-decoration: none;
+    padding-right: 45px;
+}
