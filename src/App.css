@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 :root{
-    --light:#D6D5CA;
+    --light:#EEE2A6;
+    --light-text:#000000;
     --dark: #2A3030;
     --header-font:'Courgette', cursive;
-    --light-text:#000000;
+    --normal-font:'Explora', cursive;
+    
+
 }
+
+
+.gradient__bg{
+
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); 
+
+  
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+}
+
+    
+    
+
+
