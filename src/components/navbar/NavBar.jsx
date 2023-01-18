@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../imgs/logo.png';
 import './navbar.css';
+import {AiOutlineMenu} from 'react-icons/ai/'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -14,10 +15,8 @@ const Navbar = () => {
         </div>
         <div className="trove__navbar-links_container">
             <p><a className='trove-links' href="#home">Home</a></p>
-            <p><a className='trove-links' href="#trove">Trove</a></p>
             <p><a className='trove-links' href="#premium">Premium</a></p>
             <p><a className='trove-links' href="#download">Download</a></p>
-            <p><a className='trove-links' href="#blog">Library</a></p>
         </div>
       </div>
       <div className="trove__navbar-sign">
@@ -31,15 +30,15 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="trove__navbar-menu_container scale-up-center">
           <div className="trove__navbar-menu_container-links">
-          <p><a className='trove-links' href="#home">Home</a></p>
-            <p><a className='trove-links' href="#trove">Trove</a></p>
-            <p><a className='trove-links' href="#premium">Premium</a></p>
-            <p><a className='trove-links' href="#download">Download</a></p>
-            <p><a className='trove-links' href="#blog">Library</a></p>
+            <a className='trove-links' href="#home">Home</a> <br></br>
+            <a className='trove-links' href="#premium">Premium</a><br></br>
+            <a className='trove-links' href="#download">Download</a>
+           
           </div>
           <div className="trove__navbar-menu_container-links-sign">
             <p>Sign in</p>
             <button type="button">Sign up</button>
+            <button class='trove__navbar-menu'><AiOutlineMenu/></button>
           </div>
         </div>
         )}

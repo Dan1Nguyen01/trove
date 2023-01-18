@@ -19,11 +19,12 @@ export default function App () {
         'https://images.unsplash.com/photo-1583217874534-581393fd5325?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500',
       ]}/>
       <Header/>
+      <MusicBody/>
       
+      <Footer/>
         
       </div>
-      <MusicBody/>
-      <Footer/>
+      
       </div>
     )
-}
+  }
