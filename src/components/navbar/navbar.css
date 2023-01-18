@@ -56,7 +56,7 @@
 
 .trove__navbar-sign button,
 .trove__navbar-menu_container button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     /* color: #fff; */
     background: #FF4820;
     font-family: var(--font-family);
@@ -113,6 +113,8 @@
 
     .trove__navbar-menu {
         display: flex;
+
+        justify-content: flex-end;
     }
 }
 
@@ -128,7 +130,7 @@
     }
 
     .trove__navbar-sign {
-        display: none;
+        /* display: none; */
     }
 
     .trove__navbar-menu_container {
@@ -137,5 +139,9 @@
 
     .trove__navbar-menu_container-links-sign {
         display: block;
+        
+    }
+    button{
+        display: none;
     }
 }

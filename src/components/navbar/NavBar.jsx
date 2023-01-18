@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="trove__navbar">
       <div className="trove__navbar-links">
         <div className="trove__navbar-links_logo">
-          <img src={logo} />
+          
         </div>
         <div className="trove__navbar-links_container">
             <p><a className='trove-links' href="#home">Home</a></p>
@@ -36,9 +36,7 @@ const Navbar = () => {
            
           </div>
           <div className="trove__navbar-menu_container-links-sign">
-            <p>Sign in</p>
             <button type="button">Sign up</button>
-            <button class='trove__navbar-menu'><AiOutlineMenu/></button>
           </div>
         </div>
         )}

@@ -26,10 +26,11 @@ const SlideShow = ({imgs}) => {
   return (
     <div className='slideshow__div'>
       <div className='slideshow_img'>
+        
       <img className='slideshow__maining pic' src={imgs[index]} />
       <div className='actions'>
-        <button onClick={prev}>&#60;</button>
-        <button onClick={next}>&#62;</button>
+        <button className='btn btn-info' onClick={prev}>&#60;</button>
+        <button className='btn btn-info'onClick={next}>&#62;</button>
       </div>
       </div>
      

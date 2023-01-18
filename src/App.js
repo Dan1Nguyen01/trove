@@ -7,7 +7,21 @@ export default function App () {
     return(
       <div className="App">
       <div className="gradient__bg">
-      <Navbar/>
+        ///
+      
+          <Navbar/>
+          <Header/>
+        <div className="row">
+        <div class="col-2 bg-success">
+        // this will be a menubar
+        <div className="trove__navbar">
+          
+
+        </div>
+        </div>
+
+        <div class="col-10 bg-primary">
+        <div className="trove__main-div">
       <SlideShow
       imgs={[
         'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=417&q=80',
@@ -18,13 +32,18 @@ export default function App () {
         'https://images.unsplash.com/photo-1585084335487-f653d0859c14?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500',
         'https://images.unsplash.com/photo-1583217874534-581393fd5325?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500',
       ]}/>
-      <Header/>
       <MusicBody/>
+      </div>
+        </div>
+        
+      
+      
       
       <Footer/>
         
       </div>
-      
       </div>
+      </div>
+      
     )
   }

@@ -1,5 +1,5 @@
   .pic {
-      width: auto;
+      width: 300px;
       height: 500px;
   }
   
@@ -12,12 +12,15 @@
 
   
   .slideshow__div {
-    position: relative; 
+    position: relative;
+    width: 100%;
   }
 
   .slideshow_img{
     align-items: center;
     text-align: center;
+
+   
     
   }
   
@@ -25,34 +28,4 @@
     transition: all 500ms;
     max-width: 60%;
     
-  }
-  
-  /* .actions {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .actions button {
-    background: #0000003d;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    padding-top: 10px;
-    margin: 5px;
-    border-radius: 15px;
-    padding-top: 5px;
-  } */
-  
-  .actions button:active {
-    background: #000000a2;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    padding-top: 10px;
-    margin: 5px;
-    border-radius: 15px;
-    padding-top: 5px;
   }
