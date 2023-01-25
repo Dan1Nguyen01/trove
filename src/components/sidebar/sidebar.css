@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  color: #FFF;
+}
+  
+  body{
+  /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50% 50%, rgba(1, 36, 34, 1) 29%, rgba(155, 0, 255, 1) 50%, rgba(33, 80, 232, 1) 74%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, rgba(1, 36, 34, 1) 29%, rgba(155, 0, 255, 1) 50%, rgba(33, 80, 232, 1) 74%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, rgba(1, 36, 34, 1) 29%, rgba(155, 0, 255, 1) 50%, rgba(33, 80, 232, 1) 74%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, rgba(1, 36, 34, 1) 29%, rgba(155, 0, 255, 1) 50%, rgba(33, 80, 232, 1) 74%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, rgba(1, 36, 34, 1) 29%, rgba(155, 0, 255, 1) 50%, rgba(33, 80, 232, 1) 74%);
+  
+  }
+  
+  
+
+  .container{
+    display:flex;
+  }
+  main{
+    width: 100%;
+    
+  }
+  .sidebar{
+    background:#1A1A1A;
+    color: #fff;
+    height: 100vh;
+    transition: all 0.5s;
+  }
+  .top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 25px;
+  }
+  .link{
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background: skyblue;
+    color: #FFF;
+    transition: all 0.5s;
+  }
+  
+  .icon, .link_text{
+    font-size: 20px;
+    display: block;
+  }
+  
+      /*320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens  */
+
+@media  screen and (max-width:480px) {
+    .sidebar{
+      width: 80px;
+    }
+
+    .bars{
+      margin-top: 0px;
+    }
+    .link_text{
+      display: none;
+    }
+    .logo{
+      display: none;
+    }
+}
+
+
+      
+  
+  
+  
