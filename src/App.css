@@ -2,26 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-}
-
-
-.trove__nav-top{
-    height: 90px;
-    background-color:#000;
-    
-    
-}
-.trove__nav-inner{
-    color: white;
-    
-}
-
-.active{
-    background:#2A2A72;
     color: #FFF;
-    transform: none;
-    animation-delay: 3000;
-  }
+    
+    
+}
 
-  
+.trove__website{
+   width: 90%;
+   float: right;
+   text-align: center;
+   justify-items: center;
+}
+
+.trove__music-slide-wrap h1{
+    text-align: left;
+}
+
+.trove__music-slide{
+    text-align: left;
+    margin-top: 30px;
+   margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.trove__music-slide>* {
+    flex: 0 1 180px;
+}

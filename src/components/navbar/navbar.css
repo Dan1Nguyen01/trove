@@ -1,14 +1,18 @@
 .trove__logo {
     width: 100px;
-    margin-left: 50px ;
+    margin-left: 30px ;
 }
 .trove__navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
+    justify-content: flex-end;
+    margin-left: auto;
     padding-right: 50px;
     padding-top: 20px;
+    
+}
+
+.trove__navbar a {
+   text-decoration: none;
     
 }
 
@@ -30,7 +34,14 @@
     cursor: pointer;
 }
 
-
+.trove__nav-top{
+    height: 90px;
+    background-color:#000;
+}
+.trove__nav-inner{
+    color: white;
+    
+}
 
 .trove__signup {
     padding: 0.5rem 0.5rem;

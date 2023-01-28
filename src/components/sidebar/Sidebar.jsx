@@ -3,7 +3,7 @@ import {
     FaHome,FaBars,FaSearch,FaMusic,FaCloudDownloadAlt,FaRegStar,FaCloudUploadAlt
 }from "react-icons/fa";
 import {CiStreamOn} from 'react-icons/ci'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './sidebar.css';
 import img from '../../imgs/testing.jpg'
 
@@ -23,13 +23,8 @@ const Sidebar = ({children}) => {
             icon:<CiStreamOn/>
         },
         {
-            path:"/search",
-            name:"Search",
-            icon:<FaSearch/>
-        },
-        {
-            path:"/music",
-            name:"Music",
+            path:"/myplaylist",
+            name:"My Playlist",
             icon:<FaMusic/>
         },
         {
@@ -43,11 +38,6 @@ const Sidebar = ({children}) => {
             icon:<FaRegStar/>
         },
 
-        {
-            path:'/upload',
-            name:'Upload',
-            icon:<FaCloudUploadAlt/>
-        }
         
     ]
 
@@ -61,20 +51,18 @@ const Sidebar = ({children}) => {
 
     
     return (
-        <div className="container">
-           <div className="sidebar">
-               <div className="top_section">
-                    {showLogo ? <h1  className="logo">Trove </h1> :<img src={img} width='75px' alt="" />}
-                    
-                    
-                  
+        <div className="trove__sb-container">
+           <div className="trove__sidebar">
+               <div className="trove__sb-top_section">
+                    {showLogo ? <h1  className="trove__logo">Trove </h1> :<img src={img} width='75px' alt="" />}
+
                </div>
                {
                    menuItem.map((item, index)=>(
-                       <NavLink to={item.path} key={index} className="link" activeclassName="active">
-                           <div className="icon">{item.icon}</div>
-                           <div className="link_text">{item.name}</div>
-                       </NavLink>
+                       <Link to={item.path} key={index} style={{ textDecoration: 'none' }} className="trove__sb-link" >
+                           <div className="trove__sb-icon">{item.icon}</div>
+                           <div className="trove__sb-link_text">{item.name}</div>
+                       </Link>
                    ))
                }
            </div>

@@ -1,35 +1,48 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from 'axios';
-import { Header, MusicBody,Footer } from "./containers/Index";
-import { Download,Home,Music,Search,Stream,Top100,Upload, Sidebar,Slideshow, MusicBar,Signup, Signin } from "./components/index.js";
+import { Header,Footer } from "./containers/Index";
+import { Download,Home,MyPlayList,Stream,Top100, Sidebar,Login, Signup,MusicBar, Navbar } from "./components/index.js";
+import "bootstrap/dist/css/bootstrap.min.css"
 import './app.css'
+
+
+const code = new URLSearchParams(window.location.search).get('code')
 export default function App () {
+
     return(
       <div className="App">
       <div className="gradient__bg">
       
+          
       <BrowserRouter>
+         <div className="trove__app-sidebar">
+            
+            <Sidebar/>
+            <Header className='headhaha'/>
+         </div>
+         
+            <div className="trove__app-website">
+         
+                
           
-          <Sidebar>
-          <Header/>
-            <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path='/stream' element={<Stream/>}></Route>
-                <Route path="/search" element={<Search/>}></Route>
-                <Route path="/newmusic" element={<Music/>}></Route>
-                <Route path="/download" element={<Download/>}></Route>
-                <Route path="/top100" element={<Top100/>}></Route>
-                <Route path='/upload' element= {<Upload/>}></Route>
-                <Route path ='/signin' element={<Signin/>}></Route>
-                <Route path ='/signup' element = {<Signup/>}></Route>
-            </Routes> 
-          </Sidebar>
-          
-          <MusicBody/>
-          <Footer/>
+                <div className='trove__website'>
+                  <Routes  >
+                    <Route path="/" element={<Home/>}></Route>
+                    <Route path='/stream' element={<Stream />}></Route>
+                    <Route path="/myplaylist" element={<MyPlayList/>}></Route>
+                    <Route path="/download" element={<Download />}></Route>
+                    <Route path="/top100" element={<Top100/>}></Route>
+                    <Route path="/login"  element= {<Login/>}></Route>
+                    <Route path="/signup"  element= {<Signup/>}></Route>
+                </Routes> 
+                <hr></hr>
+              </div>
+            </div>
+            <MusicBar/>
+           
           </BrowserRouter>
-          <MusicBar/>
+          
 
       </div>
       </div>

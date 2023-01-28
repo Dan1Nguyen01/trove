@@ -1,0 +1,16 @@
+.trove__song_img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.trove__song{
+    border: solid yellow 1px;
+    border-radius: 10px;
+    width: auto;
+    height: 250px;
+    margin-right: 20px;
+    width: 100%;
+}
