@@ -1,0 +1,21 @@
+.trove__music-slide{
+    text-align: left;
+    margin-top: 30px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.trove__music-slide>* {
+    flex: 0 1 176px;
+}
+
+@media  screen and (max-width:1700px)
+{
+    .trove__music-slide{
+        margin-left: 100px;
+    }
+    .trove__home h1{
+        margin-left: 100px;
+    }
+}

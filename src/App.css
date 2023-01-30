@@ -10,22 +10,8 @@
 .trove__website{
    width: 90%;
    float: right;
-   text-align: center;
+   text-align: left;
    justify-items: center;
 }
 
-.trove__music-slide-wrap h1{
-    text-align: left;
-}
 
-.trove__music-slide{
-    text-align: left;
-    margin-top: 30px;
-   margin-left: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.trove__music-slide>* {
-    flex: 0 1 180px;
-}

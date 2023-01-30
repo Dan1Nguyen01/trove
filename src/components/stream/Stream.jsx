@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './stream.css'
 const Streaming = () => {
   return (
-    <div>Streaming</div>
+    <div className='trove__stream'>Streaming</div>
   )
 }
 

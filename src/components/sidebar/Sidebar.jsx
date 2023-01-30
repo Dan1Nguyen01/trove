@@ -10,6 +10,7 @@ import img from '../../imgs/testing.jpg'
 
 const Sidebar = ({children}) => {
     const[isOpen ,setIsOpen] = useState(false);
+    
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
@@ -26,11 +27,6 @@ const Sidebar = ({children}) => {
             path:"/myplaylist",
             name:"My Playlist",
             icon:<FaMusic/>
-        },
-        {
-            path:"/download",
-            name:"Download",
-            icon:<FaCloudDownloadAlt/>
         },
         {
             path:"/top100",

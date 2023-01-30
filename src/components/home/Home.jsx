@@ -2,7 +2,7 @@ import React from 'react'
 import SearchingBar from '../searchingbar/SearchingBar';
 import songData from '../../hardCode';
 import SongCard from '../songcards/SongCard'
-import './../../app.css'
+import './home.css'
 
 const Home = () => {
   const songElements = songData.map((song)=>{
