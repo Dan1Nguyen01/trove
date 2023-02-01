@@ -10,4 +10,5 @@ export {default as Login} from './login/Login';
 export {default as Signup} from './signup/Signup';
 export {default as SearchingBar} from './searchingbar/SearchingBar';
 export {default as SongCar} from '../components/songcards/SongCard'; // song card
+
 export {default as Navbar} from '../components/navbar/NavBar'

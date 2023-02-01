@@ -8,14 +8,7 @@ export default [
         genre: ["Pop"]
 
     },
-    {
-        id:'2',
-        img:"AnsonSeabra.jpg",
-        name:'Walked Through Hell',
-        artist:'Anson Seabra',
-        genre: ['Pop']
-
-    },
+    
     {
         id:'3',
         img:"NCS.png",
@@ -25,23 +18,8 @@ export default [
         genre: ['Electronic']
 
     },
-    {
-        id:'4',
-        img:"maxresdefault.jpg",
-        name:'Meron Ryan',
-        artist:'Walk Thru Fire',
-        url:"https://www.youtube.com/watch?v=kRauptdx_Is&list=RDEMKoVNknwHda2sQb0WrWnwFQ&index=7&ab_channel=WaveMusic",
-        genre: ['Electronic']
-
-    },
-    {
-        id:'5',
-        img:"maxresdefault.jpg",
-        name:'Vicetone',
-        artist:'Nevada',
-        genre: ['Electronic']
-
-    },
+    
+    
     {
         id:'6',
         img:"Seventeen.jpg",

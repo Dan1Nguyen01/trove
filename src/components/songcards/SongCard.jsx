@@ -5,7 +5,8 @@ const SongCard = (props) => {
     
   return (
    
-      
+      <>
+      <a href='#song1' style={{textDecoration:'none'}}>
         <div className="trove__song">
               
 
@@ -13,13 +14,14 @@ const SongCard = (props) => {
                     <img src={`../songImgs/${props.song.img}`} className='trove__song_img' />
                         <h6>{props.song.name}</h6>
                         <p>{props.song.artist}</p>
-                        <h6>{props.song.genre}</h6>
+                        {/* <p>{props.song.genre}</p> */}
                         
 
                     </div>
          
-            </div>    
-         
+            </div>   
+            </a> 
+            </>
   
   )
 }

@@ -7,10 +7,25 @@
 
 
 .trove__song{
-    border: solid yellow 1px;
+    background-color: transparent;
     border-radius: 10px;
     width: auto;
     height: 250px;
     margin-right: 20px;
-    width: 100%;
+    width: 150px;
+    text-align: left;
 }
+
+
+a:hover{
+    opacity: 0.8;
+    background-color: #1A1A1A;
+}
+/* @media screen and(max-width:700px) {
+    .trove__song_img{
+        border-radius: 10px;
+        width: 50px;
+        height:50px;
+    }
+    
+} */

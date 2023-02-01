@@ -10,7 +10,6 @@ import img from '../../imgs/testing.jpg'
 
 const Sidebar = ({children}) => {
     const[isOpen ,setIsOpen] = useState(false);
-    
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
@@ -25,7 +24,7 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/myplaylist",
-            name:"My Playlist",
+            name:"My Trove",
             icon:<FaMusic/>
         },
         {
@@ -50,7 +49,8 @@ const Sidebar = ({children}) => {
         <div className="trove__sb-container">
            <div className="trove__sidebar">
                <div className="trove__sb-top_section">
-                    {showLogo ? <h1  className="trove__logo">Trove </h1> :<img src={img} width='75px' alt="" />}
+                <h1 className="trove__logo"> Trove</h1>
+                    {/* {showLogo ? <h1  className="trove__logo">Trove </h1> :<img src={img} width='75px' alt="" />} */}
 
                </div>
                {

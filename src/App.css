@@ -8,10 +8,21 @@
 }
 
 .trove__website{
-   width: 90%;
-   float: right;
-   text-align: left;
-   justify-items: center;
+    margin-left: 150px;
 }
 
 
+.trove__music-slide{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.trove__music-slide>* {
+    flex: 0 1 176px;
+}
+
+
+
+ 

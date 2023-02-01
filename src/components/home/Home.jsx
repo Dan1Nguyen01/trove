@@ -18,22 +18,20 @@ const Home = () => {
     <div className='trove__home'>
      
       <h1>Hardcore</h1>
-      <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
+      <div className='trove__music-slide' >
      {songElements}
      </div>
     
 
     <h1>Hardcore</h1>
-    <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
+    <div className='trove__music-slide' >
      {songElements}
-    
-    </div> 
+     </div>
 
     <h1>Hardcore</h1>
-    <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
+    <div className='trove__music-slide' >
      {songElements}
-    
-    </div> 
+     </div>
     </div>
     
   )
